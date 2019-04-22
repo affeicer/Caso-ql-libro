@@ -1,0 +1,23 @@
+/* AUTOMATICALLY GENERATED ON Sat Apr 20 14:40:03 CLST 2019*/
+/* DO NOT EDIT */
+
+grant {
+  permission javax.security.jacc.EJBMethodPermission "LibrosFacadeREST", "findRange,Local,java.lang.Integer,java.lang.Integer";
+  permission javax.security.jacc.EJBMethodPermission "LibrosFacadeREST", "create,Local,Entity.Libros";
+  permission javax.security.jacc.EJBMethodPermission "LibrosFacadeREST", "findRange,Local,int[]";
+  permission javax.security.jacc.EJBMethodPermission "LibrosFacadeREST", "countREST,Local,";
+  permission javax.security.jacc.EJBMethodPermission "LibrosFacadeREST", "create,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "LibrosFacadeREST", "edit,Local,java.lang.Integer,Entity.Libros";
+  permission javax.security.jacc.EJBMethodPermission "LibrosFacadeREST", "find,Local,java.lang.Integer";
+  permission javax.security.jacc.EJBMethodPermission "LibrosFacadeREST", "find,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "LibrosFacadeREST", "count,Local,";
+  permission javax.security.jacc.EJBMethodPermission "LibrosFacadeREST", "remove,Local,java.lang.Integer";
+  permission javax.security.jacc.EJBMethodPermission "LibrosFacadeREST", "findAll,Local,";
+  permission javax.security.jacc.EJBMethodPermission "LibrosFacadeREST", "edit,Local,java.lang.Object";
+  permission javax.security.jacc.EJBMethodPermission "LibrosFacadeREST", "remove,Local,java.lang.Object";
+};
+
+grant      principal * * {
+  permission javax.security.jacc.EJBRoleRefPermission "LibrosFacadeREST", "**";
+};
+
